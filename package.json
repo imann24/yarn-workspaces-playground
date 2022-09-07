@@ -1,0 +1,15 @@
+{
+  "name": "my-yarn-workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app-a",
+    "app-b",
+    "lib-c"
+  ],
+  "resolutions": {
+    "cowsay": "^1.5.0"
+  }
+}
